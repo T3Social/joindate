@@ -1,0 +1,14 @@
+{
+    "id": "joindate",
+    "name": "JoinDate",
+    "description": "The JoinDate Module extends the functionality of UserListBox of HumHub widget to provide it with the date of joining the space by user.",
+    "keywords": ["space", "members", "list", "interface"],
+    "version": "1.0.0",
+    "humhub": {
+      "minVersion": "1.7"
+    },
+    "homepage": "https://github.com/rvutya/joindate",
+    "author": "Victor Nekrasov",
+    "minimumCoreVersion": "1.7",
+    "title": "Join Date"
+}

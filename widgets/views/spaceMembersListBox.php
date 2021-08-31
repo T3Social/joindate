@@ -31,7 +31,6 @@ use yii\helpers\Html;
 
                         <div class="media-body">
                             <h4 class="media-heading"><?= Html::encode($space->user->displayName); ?></h4>
-                            <h5><?= Html::encode($space->user->displayNameSub); ?></h5>
                             <div class="tt time timeago"><?= Yii::t('JoindateModule.base', 'Joined')?> <?= TimeAgo::widget(['timestamp' => $space->created_at]);?></div>
                         </div>
                     </div>
